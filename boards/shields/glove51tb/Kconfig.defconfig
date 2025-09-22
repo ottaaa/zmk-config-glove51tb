@@ -1,0 +1,22 @@
+if SHIELD_GLOVE51tb_R
+
+config ZMK_KEYBOARD_NAME
+    default "glove51tb_R"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_GLOVE51tb_L
+
+config ZMK_KEYBOARD_NAME
+    default "glove51tb_L"
+
+config ZMK_SPLIT
+    default y
+
+endif
