@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - TAB
+  - LEFT CONTROL
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - L
   - ;
   - RETURN
-  - LEFT CONTROL
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -41,7 +41,7 @@ layers:
   - .
   - /
   - RIGHT SHIFT
-  - LEFT SHIFT
+  - LANG4
   - SYM
   - LEFT CONTROL
   - LEFT ALT
@@ -51,7 +51,7 @@ layers:
   - SPACE
   - FUN
   - \
-  - {t: ▽, type: trans}
+  - LANG1
   NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
