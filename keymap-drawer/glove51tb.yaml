@@ -41,7 +41,7 @@ layers:
   - .
   - /
   - RIGHT SHIFT
-  - LANG4
+  - TAB
   - SYM
   - LEFT CONTROL
   - LEFT ALT
@@ -51,7 +51,7 @@ layers:
   - LANG1
   - FUN
   - \
-  - LANG1
+  - CAPSLOCK
   NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,10 +191,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
-  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
+  - RIGHT SHIFT
   - '['
   - ']'
   - {t: ▽, type: trans}
