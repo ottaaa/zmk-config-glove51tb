@@ -47,8 +47,8 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - '&mkp LCLK'
-  - LANG1
   - LANG2
+  - LANG1
   - FUN
   - \
   - LANG1
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
