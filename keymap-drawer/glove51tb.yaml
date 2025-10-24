@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
   - H
   - J
   - K
@@ -47,8 +47,8 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - '&mkp LCLK'
-  - SPACE
-  - SPACE
+  - LANG1
+  - LANG2
   - FUN
   - \
   - LANG1
