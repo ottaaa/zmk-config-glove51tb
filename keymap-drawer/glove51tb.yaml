@@ -27,7 +27,7 @@ layers:
   - L
   - ;
   - RETURN
-  - LEFT SHIFT
+  - LEFT CONTROL
   - Z
   - X
   - C
@@ -41,7 +41,7 @@ layers:
   - .
   - /
   - RIGHT SHIFT
-  - LEFT CONTROL
+  - LEFT SHIFT
   - SYM
   - LEFT CONTROL
   - LEFT ALT
