@@ -47,7 +47,7 @@ layers:
   - LEFT ALT
   - '&mkp LCLK'
   - {t: LANG2, h: LEFT GUI}
-  - Gui+Sft+NO
+  - '&gui_and_shift'
   - LANG1
   - {t: LANG1, h: FUN}
   - \
