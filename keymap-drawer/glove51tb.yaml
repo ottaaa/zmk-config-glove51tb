@@ -43,13 +43,13 @@ layers:
   - RIGHT SHIFT
   - TAB
   - SYM
-  - '&ctrl_and_fun'
+  - {t: LEFT CONTROL, h: FUN}
   - LEFT ALT
   - '&mkp LCLK'
-  - '&gui_and_lang2'
-  - '&gui_and_shift'
+  - {t: LANG2, h: LEFT GUI}
+  - Gui+Sft+NO
   - LANG1
-  - '&fun_and_lang1'
+  - {t: LANG1, h: FUN}
   - \
   - RIGHT GUI
   NUM:
@@ -199,7 +199,7 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '&mkp RCLK'
   - {t: ▽, type: trans}
