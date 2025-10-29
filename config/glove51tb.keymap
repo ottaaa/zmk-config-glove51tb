@@ -71,16 +71,39 @@
         };
     };
 
+    macros {
+        gui_and_shift: gui_and_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_GUI &kp RIGHT_SHIFT>;
+            label = "GUI_AND_SHIFT";
+        };
+
+        gui_and_lang1: gui_and_fun {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mo 3 &kp LANG1>;
+            label = "GUI_AND_FUN";
+        };
+
+        gui_and_lang2: gui_and_lang2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_GUI &kp LANG2>;
+            label = "GUI_AND_LANG2";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC           &kp Q  &kp W             &kp E         &kp R         &kp T                                   &kp Y  &kp U  &kp I      &kp O    &kp P          &kp BSPC
-&kp LEFT_CONTROL  &kp A  &kp S             &kp D         &kp F         &kp G      &trans     &kp SPACE         &kp H  &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
-&kp LEFT_SHIFT    &kp Z  &kp X             &kp C         &kp V         &kp B      &mo 5      &kp SINGLE_QUOTE  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-&kp TAB           &mo 2  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &mkp LCLK  &kp LANG2  &kp LANG1         &mo 3                             &kp BACKSLASH  &kp RIGHT_GUI
+&kp ESC           &kp Q  &kp W             &kp E         &kp R      &kp T                                        &kp Y           &kp U  &kp I      &kp O    &kp P          &kp BSPC
+&kp LEFT_CONTROL  &kp A  &kp S             &kp D         &kp F      &kp G           &trans     &kp SPACE         &kp H           &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
+&kp LEFT_SHIFT    &kp Z  &kp X             &kp C         &kp V      &kp B           &mo 5      &kp SINGLE_QUOTE  &kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+&kp TAB           &mo 2  &kp LEFT_CONTROL  &kp LEFT_ALT  &mkp LCLK  &gui_and_lang2  &kp LANG2  &kp LANG1         &gui_and_lang1                             &kp BACKSLASH  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
