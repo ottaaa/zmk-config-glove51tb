@@ -92,6 +92,13 @@
             bindings = <&kp LEFT_GUI &kp LANG2>;
             label = "GUI_AND_LANG2";
         };
+
+        ctrl_and_fun: ctrl_and_fun {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_CONTROL &mo 3>;
+            label = "CTRL_AND_FUN";
+        };
     };
 
     keymap {
@@ -100,10 +107,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC           &kp Q  &kp W             &kp E         &kp R      &kp T                                             &kp Y           &kp U  &kp I      &kp O    &kp P          &kp BSPC
-&kp LEFT_CONTROL  &kp A  &kp S             &kp D         &kp F      &kp G           &trans          &kp SPACE         &kp H           &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
-&kp LEFT_SHIFT    &kp Z  &kp X             &kp C         &kp V      &kp B           &mo 5           &kp SINGLE_QUOTE  &kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-&kp TAB           &mo 2  &kp LEFT_CONTROL  &kp LEFT_ALT  &mkp LCLK  &gui_and_lang2  &gui_and_shift  &kp LANG1         &fun_and_lang1                             &kp BACKSLASH  &kp RIGHT_GUI
+&kp ESC           &kp Q  &kp W          &kp E         &kp R      &kp T                                             &kp Y           &kp U  &kp I      &kp O    &kp P          &kp BSPC
+&kp LEFT_CONTROL  &kp A  &kp S          &kp D         &kp F      &kp G           &trans          &kp SPACE         &kp H           &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
+&kp LEFT_SHIFT    &kp Z  &kp X          &kp C         &kp V      &kp B           &mo 5           &kp SINGLE_QUOTE  &kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+&kp TAB           &mo 2  &ctrl_and_fun  &kp LEFT_ALT  &mkp LCLK  &gui_and_lang2  &gui_and_shift  &kp LANG1         &fun_and_lang1                             &kp BACKSLASH  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
