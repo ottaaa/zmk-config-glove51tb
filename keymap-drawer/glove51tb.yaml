@@ -43,7 +43,7 @@ layers:
   - RIGHT SHIFT
   - TAB
   - SYM
-  - LEFT CONTROL
+  - '&ctrl_and_fun'
   - LEFT ALT
   - '&mkp LCLK'
   - '&gui_and_lang2'
