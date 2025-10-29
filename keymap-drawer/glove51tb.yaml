@@ -48,7 +48,7 @@ layers:
   - '&mkp LCLK'
   - {t: LANG2, h: LEFT GUI}
   - '&gui_and_shift'
-  - LANG1
+  - '&ctrl_and_fun'
   - {t: LANG1, h: FUN}
   - \
   - RIGHT GUI
