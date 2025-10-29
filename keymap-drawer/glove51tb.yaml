@@ -43,7 +43,7 @@ layers:
   - RIGHT SHIFT
   - TAB
   - SYM
-  - {t: LEFT CONTROL, h: FUN}
+  - '&ctrl_and_fun'
   - LEFT ALT
   - '&mkp LCLK'
   - {t: LANG2, h: LEFT GUI}
@@ -199,13 +199,13 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
