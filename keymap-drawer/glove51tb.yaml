@@ -45,11 +45,11 @@ layers:
   - SYM
   - LEFT CONTROL
   - LEFT ALT
-  - LEFT GUI
   - '&mkp LCLK'
+  - '&gui_and_lang2'
   - LANG2
   - LANG1
-  - FUN
+  - '&gui_and_lang1'
   - \
   - RIGHT GUI
   NUM:
@@ -205,7 +205,7 @@ layers:
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
