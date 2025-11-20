@@ -125,7 +125,7 @@
 &kp ESC           &kp Q  &kp W          &kp E         &kp R      &kp T                                                            &kp Y                   &kp U  &kp I      &kp O    &kp P          &kp BSPC
 &kp LEFT_CONTROL  &kp A  &kp S          &kp D         &kp F      &kp G                          &trans          &kp SPACE         &kp H                   &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
 &kp LEFT_SHIFT    &kp Z  &kp X          &kp C         &kp V      &kp B                          &mo 5           &kp SINGLE_QUOTE  &kp N                   &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-&kp TAB           &mo 2  &ctrl_and_fun  &kp LEFT_ALT  &mkp LCLK  &gui_and_lang2 LEFT_GUI LANG2  &gui_and_shift  &ctrl_and_fun     &fun_and_lang1 4 LANG1                             &kp BACKSLASH  &kp RIGHT_GUI
+&kp TAB           &mo 3  &ctrl_and_fun  &kp LEFT_ALT  &mkp LCLK  &gui_and_lang2 LEFT_GUI LANG2  &gui_and_shift  &ctrl_and_fun     &fun_and_lang1 4 LANG1                             &kp BACKSLASH  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -156,9 +156,9 @@
         function_layer {
             label = "FUN";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0      &kp DELETE
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &kp RIGHT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp MINUS         &kp EQUAL
-&trans  &trans        &trans        &trans        &trans        &trans        &trans  &kp GRAVE        &mkp LCLK       &mkp RCLK       &mkp MCLK     &kp RIGHT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6  &kp LBKT        &kp UP          &kp RBKT         &kp NUMBER_0      &kp DELETE
+&trans  &trans        &trans        &trans        &trans        &trans        &trans  &kp RIGHT_SHIFT  &kp LSHFT     &kp DOWN_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp MINUS         &kp EQUAL
+&trans  &trans        &trans        &trans        &trans        &trans        &trans  &kp GRAVE        &mkp LCLK     &mkp RCLK       &mkp MCLK       &kp RIGHT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans  &trans        &trans        &trans        &mkp RCLK     &trans        &trans  &trans           &trans                                                         &trans            &trans
             >;
 
