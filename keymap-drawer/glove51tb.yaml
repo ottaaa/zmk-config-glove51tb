@@ -139,7 +139,7 @@ layers:
   - '&ind_con'
   - '&ind_bat'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - '7'
   - '8'
   - '9'
