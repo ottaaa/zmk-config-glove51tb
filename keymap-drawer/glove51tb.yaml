@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - RIGHT SHIFT
   - LSHFT
-  - DOWN ARROW
+  - LEFT
   - DOWN ARROW
   - RIGHT ARROW
   - '-'
