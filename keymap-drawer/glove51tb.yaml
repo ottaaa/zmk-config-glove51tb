@@ -43,10 +43,10 @@ layers:
   - RIGHT SHIFT
   - TAB
   - SYM
-  - '&ctrl_and_fun'
+  - F3
   - LEFT ALT
-  - '&mkp LCLK'
   - {t: LANG2, h: LEFT GUI}
+  - '&mkp LCLK'
   - '&gui_and_shift'
   - '&ctrl_and_fun'
   - {t: LANG1, h: FUN}
