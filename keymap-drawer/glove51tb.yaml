@@ -42,14 +42,14 @@ layers:
   - /
   - RIGHT SHIFT
   - TAB
-  - FUN
+  - SYM
   - '&ctrl_and_fun'
   - LEFT ALT
   - '&mkp LCLK'
   - {t: LANG2, h: LEFT GUI}
   - '&gui_and_shift'
   - '&ctrl_and_fun'
-  - {t: LANG1, h: MOUSE}
+  - {t: LANG1, h: FUN}
   - \
   - RIGHT GUI
   NUM:
@@ -146,7 +146,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,14 +198,14 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
