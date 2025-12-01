@@ -43,7 +43,7 @@ layers:
   - RIGHT SHIFT
   - TAB
   - SYM
-  - CAPSLOCK
+  - CAPS
   - LEFT ALT
   - {t: LANG2, h: LEFT GUI}
   - '&mkp LCLK'
